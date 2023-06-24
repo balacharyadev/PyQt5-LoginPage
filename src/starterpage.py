@@ -46,7 +46,7 @@ class Ui_MainWindow(object):
         self.label.setGeometry(QtCore.QRect(90, 130, 243, 19))
         self.label.setStyleSheet("font: 75 12pt \"Arial\";\n"
 "font-weight:550;\n"
-"color: rgb(2, 50, 94);")
+"color: #d5d5d5;")
         self.label.setObjectName("label")
         self.signinstart = QtWidgets.QPushButton(self.frame)
         self.signinstart.setGeometry(QtCore.QRect(110, 190, 191, 31))
@@ -56,7 +56,8 @@ class Ui_MainWindow(object):
 "border: opx;\n"
 "border-radius: 12%;\n"
 "font: 75 12pt \"Arial\";\n"
-"font-weight:550;\n"
+"font-weight:550;\n"                                       
+"color:#d5d5d5;\n"
 "}\n"
 "::hover{\n"
 "border: 2px solid rgb(3, 65, 124);\n"
@@ -75,6 +76,7 @@ class Ui_MainWindow(object):
 "border-radius: 12%;\n"
 "font: 75 12pt \"Arial\";\n"
 "font-weight:550;\n"
+"color:#d5d5d5;\n"
 "}\n"
 "::hover{\n"
 "border: 2px solid rgb(3, 65, 124);\n"
@@ -93,6 +95,7 @@ class Ui_MainWindow(object):
 "border-radius: 12%;\n"
 "font: 75 12pt \"Arial\";\n"
 "font-weight:550;\n"
+"color:#d5d5d5;\n"
 "}\n"
 "::hover{\n"
 "border: 2px solid rgb(3, 65, 124);\n"
