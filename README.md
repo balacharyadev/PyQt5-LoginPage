@@ -19,5 +19,21 @@ using PyQt5, MongoDB.
    
        ¬Then auto-launching the GUI
    
-       ( 💨HINT ::>    )
+       ( 💨HINT ::> 
+
+       from mainpage.py,
+
+               self.con = MongoClient("mongodb://127.0.0.1:27017")
+               self.db = self.con['PYQT5-LOGINPAGE']
+               self.col = self.db['USERS'] 
+
+       To Change, 
+
+              ==> "mongodb://127.0.0.1:27017" ==> Your Server address
+              ==> 'PYQT5-LOGINPAGE' ==> Your db name
+              ==> 'USERS' ==> Your collection name
+              
+       )
+
+**Run and enjoy** ❤💥
   
