@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>../assets/mainimage.png</file>
+    <file>../assets/signup.png</file>
+    <file>../assets/mail.svg</file>
+    <file>../assets/otp.svg</file>
+    <file>../assets/login.png</file>
+    <file>../assets/hide_key.svg</file>
+    <file>../assets/key.svg</file>
+    <file>../assets/show_key.svg</file>
+    <file>../assets/user.svg</file>
+  </qresource>
+</RCC>
